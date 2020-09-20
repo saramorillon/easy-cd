@@ -5,13 +5,8 @@ export function serializeUser(user: User, done: (err: any, id?: string) => void)
   return done(null, user.username)
 }
 
-export function deserializeUser(username: string, done: (err: any, user?: User) => void): Promise<void> {
-  return User.getRepository()
-    .findOne(username)
-    .then((user) => {
-      done(null, user)
-    })
-    .catch(done)
+export function deserializeUser(username: string, done: (err: any, user?: { username: string }) => void): void {
+  return done(null, { username })
 }
 
 export function localStrategy(
