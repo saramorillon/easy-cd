@@ -1,4 +1,5 @@
-import { Column, Entity, getConnection, PrimaryColumn, Repository } from 'typeorm'
+import { Column, Entity, getConnection, OneToMany, PrimaryColumn, Repository } from 'typeorm'
+import { Build } from './Build'
 
 @Entity()
 export class User {
@@ -7,6 +8,9 @@ export class User {
 
   @Column()
   password: string
+
+  @OneToMany(() => Build, (build) => build.user)
+  builds: Build[]
 
   static getRepository(): Repository<User> {
     return getConnection().getRepository(User)

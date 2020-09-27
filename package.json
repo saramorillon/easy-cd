@@ -8,7 +8,7 @@
     "start": "ts-node src/index.ts",
     "start:dev": "nodemon -r dotenv/config --inspect=9999 src/index.ts",
     "test": "jest --runInBand",
-    "typeorm": "node -r ts-node/register -r dotenv/config ./node_modules/typeorm/cli.js --config ormconfig.ts",
+    "typeorm": "node -r ts-node/register -r dotenv/config ./node_modules/typeorm/cli.js",
     "format": "prettier 'src/**/*.{ts,tsx}' --write",
     "lint": "eslint 'src/**/*.{ts,tsx}'"
   },
@@ -30,6 +30,7 @@
     "serve-static": "^1.14.1",
     "sqlite3": "^5.0.0",
     "typeorm": "^0.2.25",
+    "typeorm-naming-strategies": "^2.0.0",
     "winston": "^3.3.3"
   },
   "devDependencies": {
