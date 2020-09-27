@@ -3123,10 +3123,10 @@ expect@^26.4.2:
     jest-message-util "^26.3.0"
     jest-regex-util "^26.0.0"
 
-express-react-view@^1.1.5:
-  version "1.1.5"
-  resolved "https://registry.yarnpkg.com/express-react-view/-/express-react-view-1.1.5.tgz#5ccc4ebcc160cfb48096f2b216d584e236c0c37a"
-  integrity sha512-maIRpT91e6Q6ZA8HAWBBFPm3rOMcWLXwgsqCv7JlrwhOpA9wgvu2EWGCfcIY731/rYS7DmY9lX2iejyS9WFxLQ==
+express-react-view@^1.1.6:
+  version "1.1.6"
+  resolved "https://registry.yarnpkg.com/express-react-view/-/express-react-view-1.1.6.tgz#e8df8e03495705f82279d5f0c86270e61bce3532"
+  integrity sha512-DVllrqmE5MFD6+bzwislOgze3Lt/8+xfU4IMj17CsJossMq+5VUF/KR+ajk8bpwQMojRFXtRcNEIcYLQhjeZ7Q==
   dependencies:
     "@babel/core" "^7.10.4"
     "@babel/preset-env" "^7.10.4"
