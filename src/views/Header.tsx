@@ -11,7 +11,7 @@ export default function Header({ user }: IHeaderProps): JSX.Element {
       <nav className="navbar is-primary">
         <div className="navbar-brand">
           <a className="navbar-item" href="/">
-            Git UI
+            Easy CD
           </a>
         </div>
         {user && (

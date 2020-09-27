@@ -11,7 +11,7 @@ export default function Layout({ user, children }: ILayoutProps): JSX.Element {
   return (
     <html>
       <head>
-        <title>Git UI</title>
+        <title>Easy CD</title>
         <link rel="stylesheet" type="text/css" href="/styles/bulma.min.css" />
         <link rel="stylesheet" type="text/css" href="/styles/fontawesome.min.css" />
         <link rel="icon" type="image/png" href="/favicon.svg" />
