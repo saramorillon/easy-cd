@@ -2263,6 +2263,11 @@ class-utils@^0.3.5:
     isobject "^3.0.0"
     static-extend "^0.1.1"
 
+classname@^0.0.0:
+  version "0.0.0"
+  resolved "https://registry.yarnpkg.com/classname/-/classname-0.0.0.tgz#43d171b484e354c7a293a5b78004df6852db20d6"
+  integrity sha1-Q9FxtITjVMeik6W3gATfaFLbINY=
+
 cli-boxes@^2.2.0:
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/cli-boxes/-/cli-boxes-2.2.1.tgz#ddd5035d25094fce220e9cab40a45840a440318f"
@@ -2567,7 +2572,7 @@ data-urls@^2.0.0:
     whatwg-mimetype "^2.3.0"
     whatwg-url "^8.0.0"
 
-date-fns@*:
+date-fns@*, date-fns@^2.16.1:
   version "2.16.1"
   resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-2.16.1.tgz#05775792c3f3331da812af253e1a935851d3834b"
   integrity sha512-sAJVKx/FqrLYHAQeN7VpJrPhagZc9R4ImZIWYRFZaaohR3KzmuK88touwsSwSVT8Qcbd4zoDsnGfX4GFB4imyQ==

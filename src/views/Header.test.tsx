@@ -4,7 +4,7 @@ import Header from './Header'
 
 describe('Header', () => {
   it('Should show the header button if user is present', () => {
-    render(<Header user={{ username: 'user1', password: 'pass1' }} />)
+    render(<Header user={{ username: 'user1', password: 'pass1', builds: [] }} />)
     expect(screen.getByText('Admin')).toBeInTheDocument()
     expect(screen.getByText('Log out')).toBeInTheDocument()
   })

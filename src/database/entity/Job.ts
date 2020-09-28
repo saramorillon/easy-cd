@@ -10,6 +10,9 @@ export class Job {
   @Column({ nullable: false })
   name: string
 
+  @Column({ nullable: true })
+  description: string
+
   @OneToMany(() => JobCommand, (command) => command.job)
   commands: JobCommand[]
 
